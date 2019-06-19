@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/deucedhunter/awesome-css-tricks/issues"
   },
-  "homepage": "https://github.com/deucedhunter/awesome-css-tricks#readme"
+  "homepage": "https://github.com/deucedhunter/awesome-css-tricks#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
