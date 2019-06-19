@@ -1,11 +1,16 @@
 body{
     background: #222;
+    color: white;
 }
 
 #burger-container{
     position: relative;
-    margin: 200px auto;
-    width: 100px;
+    margin: 0px auto;
+    width: 50px;
+    height: 50px;
+    border: 1px white solid;
+    padding: 40px;
+    border-radius: 100%;
 }
 #burger{
     cursor: pointer;
@@ -14,8 +19,8 @@ body{
     span{
         background: #eee;
         display: block;
-        width: 100px;
-        height: 14px;
+        width: 50px;
+        height: 7px;
         margin-bottom: 10px;
         position: relative;
         top: 0;
@@ -30,10 +35,31 @@ body{
 
 #burger-container.open span:nth-child(1){
     transform: rotateZ(45deg);
-    top:36px;
+    top:25px;
 }
 
 #burger-container.open span:nth-child(4){
     transform: rotateZ(-45deg);
-    top:-36px;
+    top:-25px;
 }
+
+#nav-menu
+{
+    width: 100px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+}
+.nav-item{
+    list-style-type: none;
+    color: black;
+}
+.hide{
+
+display: none;
+  }
